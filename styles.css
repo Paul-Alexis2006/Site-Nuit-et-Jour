@@ -312,6 +312,19 @@ p {
   background: var(--accent-strong);
 }
 
+.button-instagram {
+  margin-top: 0.75rem;
+  color: var(--accent-strong);
+  border-color: rgba(130, 74, 39, 0.28);
+  background: rgba(255, 250, 244, 0.72);
+}
+
+.button-instagram:hover,
+.button-instagram:focus-visible {
+  border-color: var(--accent);
+  background: #fffaf4;
+}
+
 .button-secondary {
   color: #fff8f0;
   border-color: rgba(255, 244, 231, 0.32);
